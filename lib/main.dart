@@ -26,6 +26,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Closet'),
+        leading: const Icon(Icons.menu_book, color: Colors.white60,),
         backgroundColor: const Color.fromARGB(255, 114, 113, 106),
         titleTextStyle: const TextStyle(color: Colors.white, fontSize: 25),
         centerTitle: true,
