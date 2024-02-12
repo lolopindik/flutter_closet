@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       home: const MyHomePage(),
     );
   }
-}
+} 
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
@@ -31,7 +31,7 @@ class MyHomePage extends StatelessWidget {
         centerTitle: true,
       ),
       body: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 5),
+        padding: const EdgeInsets.symmetric(vertical: 5, horizontal: 5),
         child: Row(
           children: <Widget>[
             Expanded(
