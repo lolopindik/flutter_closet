@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       home: const MyHomePage(),
     );
   }
-} 
+}
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
@@ -26,7 +26,10 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Closet'),
-        leading: const Icon(Icons.menu_book, color: Colors.white60,),
+        leading: const Icon(
+          Icons.menu_book,
+          color: Colors.white60,
+        ),
         backgroundColor: const Color.fromARGB(255, 114, 113, 106),
         titleTextStyle: const TextStyle(color: Colors.white, fontSize: 25),
         centerTitle: true,
@@ -44,7 +47,11 @@ class MyHomePage extends StatelessWidget {
                     child: Container(
                       margin: const EdgeInsets.all(5),
                       color: const Color.fromARGB(255, 91, 181, 19),
-                      child: const Center(child: Text('1')),
+                      child: const Center(
+                          child: Text(
+                        '1',
+                        style: TextStyle(color: Colors.white, fontSize: 24),
+                      )),
                     ),
                   ),
                   Flexible(
@@ -52,7 +59,11 @@ class MyHomePage extends StatelessWidget {
                     child: Container(
                       margin: const EdgeInsets.all(5),
                       color: const Color.fromARGB(255, 214, 22, 156),
-                      child: const Center(child: Text('2')),
+                      child: const Center(
+                          child: Text(
+                        '2',
+                        style: TextStyle(color: Colors.white, fontSize: 24),
+                      )),
                     ),
                   ),
                   Flexible(
@@ -60,7 +71,11 @@ class MyHomePage extends StatelessWidget {
                     child: Container(
                       margin: const EdgeInsets.all(5),
                       color: Colors.blue,
-                      child: const Center(child: Text('3')),
+                      child: const Center(
+                          child: Text(
+                        '3',
+                        style: TextStyle(color: Colors.white, fontSize: 24),
+                      )),
                     ),
                   ),
                   Flexible(
@@ -68,7 +83,11 @@ class MyHomePage extends StatelessWidget {
                     child: Container(
                       margin: const EdgeInsets.all(5),
                       color: const Color.fromARGB(255, 12, 210, 190),
-                      child: const Center(child: Text('4')),
+                      child: const Center(
+                          child: Text(
+                        '4',
+                        style: TextStyle(color: Colors.white, fontSize: 24),
+                      )),
                     ),
                   ),
                 ],
@@ -83,7 +102,10 @@ class MyHomePage extends StatelessWidget {
                     child: Container(
                       margin: const EdgeInsets.all(5),
                       color: const Color.fromARGB(255, 226, 98, 7),
-                      child: const Center(child: Text('5')),
+                      child: const Center(
+                          child: Text('5',
+                              style: TextStyle(
+                                  color: Colors.white, fontSize: 24))),
                     ),
                   ),
                   Flexible(
@@ -91,7 +113,10 @@ class MyHomePage extends StatelessWidget {
                     child: Container(
                       margin: const EdgeInsets.all(5),
                       color: const Color.fromARGB(255, 206, 23, 23),
-                      child: const Center(child: Text('6')),
+                      child: const Center(
+                          child: Text('6',
+                              style: TextStyle(
+                                  color: Colors.white, fontSize: 24))),
                     ),
                   ),
                   Flexible(
@@ -99,7 +124,11 @@ class MyHomePage extends StatelessWidget {
                     child: Container(
                       margin: const EdgeInsets.all(5),
                       color: const Color.fromARGB(255, 215, 225, 18),
-                      child: const Center(child: Text('7')),
+                      child: const Center(
+                          child: Text(
+                        '7',
+                        style: TextStyle(color: Colors.white, fontSize: 24),
+                      )),
                     ),
                   ),
                   Flexible(
@@ -107,7 +136,11 @@ class MyHomePage extends StatelessWidget {
                     child: Container(
                       margin: const EdgeInsets.all(5),
                       color: const Color.fromARGB(255, 35, 21, 170),
-                      child: const Center(child: Text('8')),
+                      child: const Center(
+                          child: Text(
+                        '8',
+                        style: TextStyle(color: Colors.white, fontSize: 24),
+                      )),
                     ),
                   ),
                 ],
